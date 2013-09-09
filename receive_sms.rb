@@ -11,10 +11,6 @@ configure do
   $stderr.sync = true
 end
 
-get '/' do
-  [200,"Hello, World"]
-end
-
 # URL configured as "SMS Mobile Originated URI"
 post '/' do
   begin
